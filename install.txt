@@ -1,0 +1,18 @@
+
+# install Anaconda Python 3
+# pick Python 3.6 version, Graphical Installer (424 M)
+https://www.continuum.io/downloads#osx
+
+# installed to /anaconda/
+
+# set PATH
+export PATH="/anaconda/bin:$PATH"
+
+# create a python3 env named py3k
+conda create -n py3k python=3 anaconda
+
+# To activate this environment, use:
+source activate py3k
+
+# To deactivate this environment, use:
+source deactivate py3k

@@ -55,11 +55,11 @@ SyntaxError: Missing parentheses in call to 'print'
 Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 40, 46, and 52.
 
 // -------------------------------------------------------
+
+python machine/ml_main.py 
+SyntaxError: Missing parentheses in call to 'print'
+Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 41, 47, 51, 53, and 55.
+
 // -------------------------------------------------------
 // -------------------------------------------------------
-// sample
-File: Pandas\Obesity.py
-Error: XXXX
-
-Probable cause: Library Y missing / Python 2 vs 3 problem / I dont know
-
+// -------------------------------------------------------

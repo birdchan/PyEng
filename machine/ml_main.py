@@ -38,18 +38,18 @@ for movie_key in my_movies.keys():
                     # If this is not the first time, merely update the values we have created before
                     total_my_votes[movie_to_compare] += correlated_dict[movie_key][movie_to_compare] * my_movies[movie_key]       
 
-print "total_my_votes = ", total_my_votes
+print("total_my_votes = ", total_my_votes)
 
 recommended_movies = {}
 for movie_key in total_my_votes.keys():
     recommended_movies[movie_key] =  total_my_votes[movie_key] / len(total_my_votes.keys())
         
-print recommended_movies
+print(recommended_movies)
 
 for movie_key in recommended_movies:
     if recommended_movies[movie_key] > 3.0:
-        print "Strongly recommended for you: ", movie_key
+        print("Strongly recommended for you: ", movie_key)
     elif recommended_movies[movie_key] > 0.0:
-        print "Recommended for you: ", movie_key    
+        print("Recommended for you: ", movie_key)
     else :
-        print "Not recommended: ", movie_key
+        print("Not recommended: ", movie_key)

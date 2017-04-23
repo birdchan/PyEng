@@ -1,0 +1,56 @@
+
+// just make sure the python version is 3.x, not 2.7
+(py3k) Brians-MacBook-Pro:PyEng brian$ python --version
+Python 3.6.0 :: Anaconda 4.3.1 (x86_64)
+
+// -------------------------------------------------------
+
+python audio/create_wave.py 
+test.wav created
+
+python audio/get_freq.py 
+chart pops up
+
+python audio/noisy.py
+total 4 charts pop up
+
+python Image_Video/blur.py Image_Video/ship.jpg
+cv2.waitKey(0) doesn't release the terminal
+
+python Image_Video/color_test.py
+ModuleNotFoundError: No module named 'SimpleCV'
+
+python Image_Video/color_train.py
+ModuleNotFoundError: No module named 'SimpleCV'
+
+python Image_Video/count_cards.py Image_Video/cards4.jpg
+ValueError: too many values to unpack (expected 2)
+
+python Image_Video/display.py Image_Video/cards4.jpg
+cv2.waitKey(0) doesn't release the terminal
+
+python Image_Video/edge_detect.py Image_Video/cards4.jpg
+cv2.waitKey(0) doesn't release the terminal
+
+python Image_Video/face_detect.py Image_Video/little_mix.jpg Image_Video/haarcascade_frontalface_default.xml
+correctly recognizes the 5 faces
+cv2.waitKey(0) doesn't release the terminal
+
+python Image_Video/motion_detect.py Image_Video/motion.mp4
+correctly detects the motions
+
+python Image_Video/webcam_face_detect.py Image_Video/haarcascade_frontalface_default.xml Image_Video/webcam.mp4
+correctly detects the motions of the faces
+
+
+
+
+
+// -------------------------------------------------------
+// -------------------------------------------------------
+// -------------------------------------------------------
+// sample
+File: Pandas\Obesity.py
+Error: XXXX
+
+Probable cause: Library Y missing / Python 2 vs 3 problem / I dont know

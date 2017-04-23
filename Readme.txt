@@ -52,25 +52,40 @@ File: machine/calc_correlation.py
 File "machine/calc_correlation.py", line 40
     print "Usage: python calc_correlation.py <data file.py>"
 SyntaxError: Missing parentheses in call to 'print'
-Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 40, 46, and 52.
+Solution: Python 2 vs 3 problem, need to add parentheses to the print statements at line 40, 46, and 52.
 
 // -------------------------------------------------------
 
 File: machine/ml_main.py 
 SyntaxError: Missing parentheses in call to 'print'
-Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 41, 47, 51, 53, and 55.
+Solution: Python 2 vs 3 problem, need to add parentheses to the print statements at line 41, 47, 51, 53, and 55.
 
 // -------------------------------------------------------
 
 File: Multiprocessing/gen_rand.py
 SyntaxError: Missing parentheses in call to 'print'
-Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 9.
+Solution: Python 2 vs 3 problem, need to add parentheses to the print statements at line 9.
 
 // -------------------------------------------------------
 
 File: Pandas/obesity.py
 SyntaxError: Missing parentheses in call to 'print'
-Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 5, and 28.
+Solution: Python 2 vs 3 problem, need to add parentheses to the print statements at line 5, and 28.
+
+// -------------------------------------------------------
+
+File: Pandas/pandas_movie.py
+SyntaxError: Missing parentheses in call to 'print'
+Solution: Python 2 vs 3 problem, need to add parentheses to the print statements at numerous lines.
+
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe9 in position 3: invalid continuation byte
+Solution: adds "encoding = 'ISO-8859-1'" to read_csv at line 12.
+  - http://stackoverflow.com/questions/18171739/unicodedecodeerror-when-reading-csv-file-in-pandas-with-python
+
+pandas_movie.py:19: FutureWarning: order is deprecated, use sort_values(...)
+pandas_movie.py:27: FutureWarning: order is deprecated, use sort_values(...)
+pandas_movie.py:47: FutureWarning: by argument to sort_index is deprecated, pls use .sort_values(by=...)
+pandas_movie.py:62: FutureWarning: sort is deprecated, use sort_values(inplace=True) for INPLACE sorting
 
 // -------------------------------------------------------
 // -------------------------------------------------------

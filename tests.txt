@@ -43,14 +43,14 @@ python Image_Video/webcam_face_detect.py Image_Video/haarcascade_frontalface_def
 correctly detects the motions of the faces
 
 python machine/calc_correlation.py machine/ml_data1.py
-Need to add the parentheses to the print statments at line 40, 46, and 52.
+Need to add parentheses to the print statements at line 40, 46, and 52.
 generates corr_dict.py
 
 python machine/ml_main.py 
-Need to add the parentheses to the print statments at line 41, 47, 51, 53, and 55.
+Need to add parentheses to the print statements at line 41, 47, 51, 53, and 55.
 
 python Multiprocessing/gen_rand.py
-Need to add the parentheses to the print statments at line 9.
+Need to add parentheses to the print statements at line 9.
 
 python Multiprocessing/process.py
 correctly prints 4 "job done"
@@ -62,8 +62,10 @@ python Multiprocessing/thread.py
 correctly prints 4 "job done"
 
 python Pandas/obesity.py
-Need to add the parentheses to the print statments at line 5, and 28.
+Need to add parentheses to the print statements at line 5, and 28.
 
+python Pandas/pandas_movie.py
+Need to add parentheses to the print statements at numerous lines.
 
 
 // -------------------------------------------------------

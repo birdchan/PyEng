@@ -52,6 +52,14 @@ Need to add the parentheses to the print statments at line 41, 47, 51, 53, and 5
 python Multiprocessing/gen_rand.py
 Need to add the parentheses to the print statments at line 9.
 
+python Multiprocessing/process.py
+correctly prints 4 "job done"
+
+python Multiprocessing/single.py
+correctly prints 4 "job done"
+
+python Multiprocessing/thread.py
+correctly prints 4 "job done"
 
 // -------------------------------------------------------
 // -------------------------------------------------------

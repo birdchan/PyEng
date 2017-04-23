@@ -67,5 +67,11 @@ SyntaxError: Missing parentheses in call to 'print'
 Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 9.
 
 // -------------------------------------------------------
+
+File: Pandas/obesity.py
+SyntaxError: Missing parentheses in call to 'print'
+Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 5, and 28.
+
+// -------------------------------------------------------
 // -------------------------------------------------------
 // -------------------------------------------------------

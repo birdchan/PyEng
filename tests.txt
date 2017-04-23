@@ -42,7 +42,9 @@ correctly detects the motions
 python Image_Video/webcam_face_detect.py Image_Video/haarcascade_frontalface_default.xml Image_Video/webcam.mp4
 correctly detects the motions of the faces
 
-
+python machine/calc_correlation.py machine/ml_data1.py
+Need to add the parentheses to the print statments at line 40, 46, and 52.
+generates corr_dict.py
 
 
 

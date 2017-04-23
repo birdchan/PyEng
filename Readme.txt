@@ -47,8 +47,12 @@ Solution: return 3 items: _, contours0, hierarchy
 
 // -------------------------------------------------------
 
+File: machine/calc_correlation.py
 
-
+File "machine/calc_correlation.py", line 40
+    print "Usage: python calc_correlation.py <data file.py>"
+SyntaxError: Missing parentheses in call to 'print'
+Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 40, 46, and 52.
 
 // -------------------------------------------------------
 // -------------------------------------------------------

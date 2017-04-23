@@ -88,5 +88,19 @@ pandas_movie.py:47: FutureWarning: by argument to sort_index is deprecated, pls 
 pandas_movie.py:62: FutureWarning: sort is deprecated, use sort_values(inplace=True) for INPLACE sorting
 
 // -------------------------------------------------------
+
+File: rpi/webapp_bootstrap.py
+TypeError: a bytes-like object is required, not 'str'
+Solution: Python 2 vs 3 problem, need to add ".decode()" to line 19.
+  - http://stackoverflow.com/questions/29643544/python-a-bytes-like-object-is-required-not-str
+
+// -------------------------------------------------------
+
+File: rpi/webapp.py
+TypeError: a bytes-like object is required, not 'str'
+Solution: Python 2 vs 3 problem, need to add ".decode()" to line 19.
+  - http://stackoverflow.com/questions/29643544/python-a-bytes-like-object-is-required-not-str
+
+// -------------------------------------------------------
 // -------------------------------------------------------
 // -------------------------------------------------------

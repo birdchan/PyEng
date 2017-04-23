@@ -78,6 +78,26 @@ plots the chart correctly
 python list_comp.py
 The output seems ok
 
+cd rpi
+python hello.py
+http://127.0.0.1:5000/
+http://127.0.0.1:5000/abc
+seems ok
+
+sudo python webapp_bootstrap.py
+http://0.0.0.0:80/
+  File "/Users/brian/my_git/PyEng/rpi/webapp_bootstrap.py", line 19, in home
+    msg = msg.split("\n")
+TypeError: a bytes-like object is required, not 'str'
+Need to add ".decode()"
+
+sudo python webapp.py
+http://0.0.0.0:80/
+  File "/Users/brian/my_git/PyEng/rpi/webapp.py", line 19, in home
+    msg = msg.split("\n")
+TypeError: a bytes-like object is required, not 'str'
+Need to add ".decode()"
+
 // -------------------------------------------------------
 // -------------------------------------------------------
 // -------------------------------------------------------

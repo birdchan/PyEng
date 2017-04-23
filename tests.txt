@@ -14,6 +14,8 @@ chart pops up
 python audio/noisy.py
 total 4 charts pop up
 
+// -------------------------------------------------------
+
 python Image_Video/blur.py Image_Video/ship.jpg
 cv2.waitKey(0) doesn't release the terminal
 
@@ -42,12 +44,16 @@ correctly detects the motions
 python Image_Video/webcam_face_detect.py Image_Video/haarcascade_frontalface_default.xml Image_Video/webcam.mp4
 correctly detects the motions of the faces
 
+// -------------------------------------------------------
+
 python machine/calc_correlation.py machine/ml_data1.py
 Need to add parentheses to the print statements at line 40, 46, and 52.
 generates corr_dict.py
 
 python machine/ml_main.py 
 Need to add parentheses to the print statements at line 41, 47, 51, 53, and 55.
+
+// -------------------------------------------------------
 
 python Multiprocessing/gen_rand.py
 Need to add parentheses to the print statements at line 9.
@@ -61,12 +67,16 @@ correctly prints 4 "job done"
 python Multiprocessing/thread.py
 correctly prints 4 "job done"
 
+// -------------------------------------------------------
+
 cd Pandas
 python obesity.py
 Need to add parentheses to the print statements at line 5, and 28.
 
 python pandas_movie.py
 Need to add parentheses to the print statements at numerous lines.
+
+// -------------------------------------------------------
 
 cd Plotting
 python data_plot.py
@@ -77,6 +87,8 @@ plots the chart correctly
 
 python list_comp.py
 The output seems ok
+
+// -------------------------------------------------------
 
 cd rpi
 python hello.py
@@ -97,6 +109,17 @@ http://0.0.0.0:80/
     msg = msg.split("\n")
 TypeError: a bytes-like object is required, not 'str'
 Need to add ".decode()"
+
+// -------------------------------------------------------
+
+cd WordCount
+python count_lines_fixed.py
+
+python count_words.py
+
+python read_file.py
+
+python word_count.py birds.txt
 
 // -------------------------------------------------------
 // -------------------------------------------------------

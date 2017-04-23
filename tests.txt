@@ -61,12 +61,22 @@ correctly prints 4 "job done"
 python Multiprocessing/thread.py
 correctly prints 4 "job done"
 
-python Pandas/obesity.py
+cd Pandas
+python obesity.py
 Need to add parentheses to the print statements at line 5, and 28.
 
-python Pandas/pandas_movie.py
+python pandas_movie.py
 Need to add parentheses to the print statements at numerous lines.
 
+cd Plotting
+python data_plot.py
+plots the charts correctly
+
+python graph_wave.py
+plots the chart correctly
+
+python list_comp.py
+The output seems ok
 
 // -------------------------------------------------------
 // -------------------------------------------------------

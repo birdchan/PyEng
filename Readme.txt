@@ -56,9 +56,15 @@ Solution: Python 2 vs 3 problem, need to add the parentheses to the print statme
 
 // -------------------------------------------------------
 
-python machine/ml_main.py 
+File: machine/ml_main.py 
 SyntaxError: Missing parentheses in call to 'print'
 Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 41, 47, 51, 53, and 55.
+
+// -------------------------------------------------------
+
+File: Multiprocessing/gen_rand.py
+SyntaxError: Missing parentheses in call to 'print'
+Solution: Python 2 vs 3 problem, need to add the parentheses to the print statments at line 9.
 
 // -------------------------------------------------------
 // -------------------------------------------------------

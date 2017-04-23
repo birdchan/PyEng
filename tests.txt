@@ -49,12 +49,10 @@ generates corr_dict.py
 python machine/ml_main.py 
 Need to add the parentheses to the print statments at line 41, 47, 51, 53, and 55.
 
+python Multiprocessing/gen_rand.py
+Need to add the parentheses to the print statments at line 9.
+
 
 // -------------------------------------------------------
 // -------------------------------------------------------
 // -------------------------------------------------------
-// sample
-File: Pandas\Obesity.py
-Error: XXXX
-
-Probable cause: Library Y missing / Python 2 vs 3 problem / I dont know
